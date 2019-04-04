@@ -1,0 +1,97 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Trang Quản Trị</title>
+    <!-- Tell the browser to be responsive to screen width -->
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Bootstrap 3.3.5 -->
+    <link href="~/Assets/admin/libs/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <!-- Ionicons -->
+    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <!-- Theme style -->
+    <link rel="stylesheet" href="~/Assets/admin/css/AdminLTE.css">
+    <link href="~/Assets/admin/css/custom.css" rel="stylesheet" />
+    <link href="~/Assets/admin/libs/toastr/toastr.min.css" rel="stylesheet" />
+    <link href="~/Assets/admin/libs/angular-loading-bar/build/loading-bar.min.css" rel="stylesheet" />
+    <!-- AdminLTE Skins. Choose a skin from the css/skins
+         folder instead of downloading all of them to reduce the load. -->
+    <link rel="stylesheet" href="~/Assets/admin/css/skins/_all-skins.min.css">
+
+
+</head>
+<body class="hold-transition skin-blue sidebar-mini" ng-app="petProject" ng-controller="rootController">
+
+    <div ui-view></div>*
+
+
+
+    <!-- jQuery 2.1.4 -->
+    <script src="~/Assets/admin/libs/jquery/dist/jquery.min.js"></script>
+    <!-- Bootstrap 3.3.5 -->
+    <script src="~/Assets/admin/libs/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- SlimScroll -->
+    <script src="~/Assets/admin/libs/slimScroll/jquery.slimscroll.min.js"></script>
+    <!-- FastClick -->
+    <script src="~/Assets/admin/libs/fastclick/lib/fastclick.js"></script>
+    <!-- AdminLTE App -->
+    <script src="/Assets/admin/js/app.min.js"></script>
+
+    @*plusin*@
+    <script src="~/Assets/admin/libs/angular/angular.js"></script>
+    <script src="~/Assets/admin/libs/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="~/Assets/admin/libs/toastr/toastr.min.js"></script>
+    <script src="~/Assets/admin/libs/bootbox/bootbox.js"></script>
+    <script src="~/Assets/admin/libs/ckeditor/ckeditor.js"></script>
+    <script src="~/Assets/admin/libs/ngBootbox/ngBootbox.js"></script>
+    <script src="~/Assets/admin/libs/ng-ckeditor/ng-ckeditor.min.js"></script>
+    <script src="~/Assets/admin/libs/ckfinder/ckfinder.js"></script>
+    <script src="~/Assets/admin/libs/angular-local-storage/dist/angular-local-storage.min.js"></script>
+    <script src="~/Assets/admin/libs/angular-loading-bar/build/loading-bar.min.js"></script>
+
+    @*service*@
+    <script src="~/app/shared/modules/petProject.common.js"></script>
+    <script src="~/app/shared/services/apiService.js"></script>
+    <script src="~/app/shared/filter/statusFilter.js"></script>
+    <script src="~/app/shared/directives/pagerDirective.js"></script>
+    <script src="~/app/shared/services/notificationService.js"></script>
+    <script src="~/app/shared/services/authData.js"></script>
+    <script src="~/app/shared/services/authenticationService.js"></script>
+    <script src="~/app/shared/services/loginService.js"></script>
+    <script src="~/app/shared/services/commonService.js"></script>
+
+    @*modules*@
+    <script src="~/app/components/product/products.modules.js"></script>
+    <script src="~/app/components/product_category/productCategory.module.js"></script>
+    <script src="~/app/app.js"></script>
+    <script src="~/app/components/home/rootController.js"></script>
+
+    @*product Controller*@
+    <script src="~/app/components/product/productAddController.js"></script>
+    <script src="~/app/components/product/productListController.js"></script>
+    <script src="~/app/components/product/productAddController.js"></script>
+    <script src="~/app/components/product/productEditController.js"></script>
+
+    @*product category Controller*@
+    <script src="~/app/components/product_category/productCategoryEditController.js"></script>
+    <script src="~/app/components/home/homeController.js"></script>
+    <script src="~/app/components/product_category/productCategoryController.js"></script>
+    <script src="~/app/components/product_category/productCategoryAddController.js"></script>
+    <script src="~/app/components/login/loginController.js"></script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

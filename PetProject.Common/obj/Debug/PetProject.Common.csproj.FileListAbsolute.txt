@@ -1,0 +1,6 @@
+D:\PetProject\PetProject_ASPWEB_API_AngularJS\PetProject.Common\bin\Debug\PetProject.Common.dll
+D:\PetProject\PetProject_ASPWEB_API_AngularJS\PetProject.Common\bin\Debug\PetProject.Common.pdb
+D:\PetProject\PetProject_ASPWEB_API_AngularJS\PetProject.Common\obj\Debug\PetProject.Common.csproj.CoreCompileInputs.cache
+D:\PetProject\PetProject_ASPWEB_API_AngularJS\PetProject.Common\obj\Debug\PetProject.Common.dll
+D:\PetProject\PetProject_ASPWEB_API_AngularJS\PetProject.Common\obj\Debug\PetProject.Common.pdb
+D:\PetProject\PetProject_ASPWEB_API_AngularJS\PetProject.Common\obj\Debug\PetProject.Common.csprojAssemblyReference.cache
