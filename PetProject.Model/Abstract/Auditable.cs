@@ -3,6 +3,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PetProject.Model.Abstract
 {
+    //test
+    //tets cai nua
     public abstract class Auditable : IAuditable
     {
         public DateTime? CreatedDate { set; get; }
